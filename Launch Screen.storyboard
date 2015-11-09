@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="animales" translatesAutoresizingMaskIntoConstraints="NO" id="O0F-3m-8Vi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Encuesta" translatesAutoresizingMaskIntoConstraints="NO" id="O0F-3m-8Vi">
                                 <rect key="frame" x="76" y="96" width="460" height="407"/>
                                 <animations/>
                             </imageView>
@@ -25,8 +26,10 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="O0F-3m-8Vi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8BA-zR-Gab"/>
-                            <constraint firstItem="O0F-3m-8Vi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VXR-uA-21z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O0F-3m-8Vi" secondAttribute="trailing" constant="44" id="TSD-td-aRu"/>
+                            <constraint firstItem="O0F-3m-8Vi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="UWc-qq-J1Z"/>
+                            <constraint firstItem="O0F-3m-8Vi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="56" id="b0J-Ep-Tq6"/>
+                            <constraint firstItem="O0F-3m-8Vi" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="76" id="fjK-9j-vgl"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,6 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="animales" width="1600" height="1387"/>
+        <image name="Encuesta" width="800" height="600"/>
     </resources>
 </document>
