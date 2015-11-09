@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15A279b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hov-do-9cL">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cuestionarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dya-xy-5Ht" userLabel="pregunta">
+                                <rect key="frame" x="71" y="72" width="250" height="69"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="28"/>
+                                <color key="textColor" red="1" green="0.13516190089999999" blue="0.102679492" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iBn-8w-xZB" userLabel="respuesta1">
+                                <rect key="frame" x="71" y="365" width="250" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DKq-uX-Ldp" userLabel="respuesta2">
+                                <rect key="frame" x="71" y="421" width="250" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MNK-jE-jNU" userLabel="respuesta3">
+                                <rect key="frame" x="71" y="474" width="250" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzI-9t-dwk">
+                                <rect key="frame" x="20" y="430" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" image="B"/>
+                                <connections>
+                                    <action selector="bButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ztq-si-AM3"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgf-S0-q3b">
+                                <rect key="frame" x="20" y="483" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" image="C"/>
+                                <connections>
+                                    <action selector="cButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efk-wm-buh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p3R-hn-xmx" userLabel="foto">
+                                <rect key="frame" x="96" y="152" width="200" height="200"/>
+                                <animations/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5VG-ly-lEk">
+                                <rect key="frame" x="323" y="82" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RBu-P4-76S">
+                                <rect key="frame" x="71" y="529" width="250" height="48"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.35686274509803922" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Puntos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mj-vU-Dcy">
+                                <rect key="frame" x="327" y="66" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vc2-bw-dHm">
+                                <rect key="frame" x="24" y="64" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2HH-1a-6TV">
+                                <rect key="frame" x="20" y="538" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button" image="D"/>
+                                <connections>
+                                    <action selector="dButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hF1-oe-wQN"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFb-dy-oKv">
+                                <rect key="frame" x="20" y="374" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" image="A"/>
+                                <connections>
+                                    <action selector="aButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FVt-gB-nfE"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehy-Si-5L0">
+                                <rect key="frame" x="20" y="82" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tLP-jq-4NF">
+                        <nil key="title"/>
+                        <leftBarButtonItems>
+                            <barButtonItem enabled="NO" style="plain" systemItem="rewind" id="WXu-QL-Rk5">
+                                <connections>
+                                    <action selector="backButtonPressed:" destination="BYZ-38-t0r" id="f7s-3h-TOw"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem enabled="NO" systemItem="fastForward" id="7UK-ea-DoY">
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="BYZ-38-t0r" id="dHQ-1O-HyJ"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="search" id="eud-hc-ebP">
+                                <connections>
+                                    <action selector="darLaRespuesta:" destination="BYZ-38-t0r" id="liQ-TH-10k"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="refresh" id="PxK-NH-1HK">
+                                <connections>
+                                    <action selector="restartButtonPressed:" destination="BYZ-38-t0r" id="jlf-ps-HOa"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <barButtonItem key="rightBarButtonItem" systemItem="stop" id="tF6-NA-S3r">
+                            <connections>
+                                <segue destination="iZn-D6-hPq" kind="show" id="Yt0-X5-Vnj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="aButton" destination="oFb-dy-oKv" id="aJH-Ix-guD"/>
+                        <outlet property="bButton" destination="HzI-9t-dwk" id="ZCc-O3-QdF"/>
+                        <outlet property="bacKButton" destination="WXu-QL-Rk5" id="veA-kg-eX8"/>
+                        <outlet property="cButton" destination="Tgf-S0-q3b" id="Fo1-iK-mnj"/>
+                        <outlet property="dButton" destination="2HH-1a-6TV" id="2Tg-JG-Wbe"/>
+                        <outlet property="fotoImagen" destination="p3R-hn-xmx" id="8bT-N3-UmE"/>
+                        <outlet property="helpButton" destination="eud-hc-ebP" id="nVz-d6-rjG"/>
+                        <outlet property="nextButton" destination="7UK-ea-DoY" id="N72-EJ-4pT"/>
+                        <outlet property="numeroPregunta" destination="ehy-Si-5L0" id="0cq-Qc-3R3"/>
+                        <outlet property="numeroPuntos" destination="5VG-ly-lEk" id="cMB-NJ-liQ"/>
+                        <outlet property="respuestaAPregunta" destination="iBn-8w-xZB" id="VYG-3w-jid"/>
+                        <outlet property="respuestaBPregunta" destination="DKq-uX-Ldp" id="0be-hS-rwo"/>
+                        <outlet property="respuestaCPregunta" destination="MNK-jE-jNU" id="A5z-wM-QZh"/>
+                        <outlet property="respuestaDPregunta" destination="RBu-P4-76S" id="H0u-Ww-2Jw"/>
+                        <outlet property="restartButton" destination="PxK-NH-1HK" id="rpK-iB-E34"/>
+                        <outlet property="textoPregunta" destination="dya-xy-5Ht" id="GNH-lR-FQi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="1158"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="6yi-pH-5k3">
+            <objects>
+                <viewController id="iZn-D6-hPq" customClass="ViewControllerExit" customModule="Cuestionarios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="By3-B4-ZgM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y2t-4I-Kgy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7pS-ND-JoC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3no-xM-a30">
+                                <rect key="frame" x="60" y="124" width="240" height="128"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dG5-dA-NmC">
+                                <rect key="frame" x="60" y="301" width="240" height="170"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Title" id="dLg-4z-vJH">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="D1f-xm-beB">
+                            <connections>
+                                <action selector="botonTerminar:" destination="iZn-D6-hPq" id="AzN-Ak-c5N"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="imagenFinal" destination="dG5-dA-NmC" id="ahM-ol-4Iv"/>
+                        <outlet property="messageFinal" destination="3no-xM-a30" id="4S4-gG-TW0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R7W-MK-kWS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="1873"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hSv-Xf-bCM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hov-do-9cL" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tW3-aT-gYn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="AXU-mD-g9v">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="R13-X9-K4W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rk1-dI-f8r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="432"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="A" width="30" height="30"/>
+        <image name="B" width="30" height="30"/>
+        <image name="C" width="30" height="30"/>
+        <image name="D" width="30" height="30"/>
+    </resources>
+</document>
